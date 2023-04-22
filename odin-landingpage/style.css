@@ -1,0 +1,225 @@
+/* general page formatting */
+body {
+    display: flex;
+    font-family: 'Roboto';
+    margin: 0px;
+    padding: 0px;
+}
+
+.webpage {
+    display: flex;
+    flex-direction: column;
+}
+
+.top, .footer {
+    background-color: #1f2937;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+}
+
+.inspiringquote {
+    background-color: #e5e7eb;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.subtext .left-subtext .bodytext, .link a, button, .footertext, .calltoaction .text  {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882f6;
+    font-weight: 700;
+    border-radius: 8px;
+    flex-grow: 0;
+}
+
+.header, .subtext, .randominfo, .quotecontent, .calltoaction, .footertext{
+    margin-left: 96px;
+    margin-right: 96px;
+}
+
+/* header specific formatting */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 72px;
+}
+
+.left-header {
+    display: flex;
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.right-header {
+    display: flex;
+    justify-content: center;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link a {
+    
+    text-decoration: none;
+    text-align: center;
+    margin: 8px;
+}
+
+/* subtext section formatting */
+.subtext {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 72px;
+    align-items: center;
+}
+
+.left-subtext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    flex: 1;
+}
+
+.right-subtext img {
+    width: 25%;
+}
+
+.right-subtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.left-subtext .subtextheader {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 8px;
+}
+
+.left-subtext .bodytext {
+    margin-bottom: 8px;
+}
+
+.subtext button {
+    align-self:flex-start;
+    padding: 8px 24px;
+    border: none;
+}
+
+/* random info section */
+.randominfo {
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.randominfo .header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.infographics {
+    display: flex;
+    justify-content: center;
+}
+
+.infographic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 48px;
+    /* height: 200px;
+    width: 100px; */
+    margin-right: 48px;
+}
+
+.infographic .img {
+    height: 200px;
+    width: 200px;
+    border-color: #3882f6;
+    border-style: solid;
+    border-width: 8px;
+    border-radius: 8px;
+    align-self: center;
+    margin: 32px;
+}
+
+.quote, .quoteattribute {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-left: 48px;
+    margin-right: 48px;
+}
+
+.quotecontent {
+    padding: 72px;
+}
+
+.quoteattribute {
+    display: flex;
+    font-weight: bold;
+    font-style: normal;
+    justify-content: right;
+}
+
+/* signup formatting */
+
+.signup {
+    display: flex;
+    flex-direction: column;
+}
+
+.calltoaction {
+    margin-bottom: 48px;
+    margin-top: 48px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+
+}
+
+.calltoaction .header {
+    font-weight: bolder;
+    color:#f9faf8;
+    font-size: 24px;
+}
+
+.callbutton {
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    padding: 8px 48px;
+}
+
+.footer .footertext {
+    justify-content: center;
+    align-self: center;
+    padding: 24px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
