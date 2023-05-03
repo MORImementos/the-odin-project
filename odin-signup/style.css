@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    color: #000;
+    min-height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.page-wrapper {
+    display: flex;
+    min-height: 100vh;
+    width: auto;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url('aron-visuals-LSFuPFE9vKE-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: calc(33.33vh);
+    flex: 1;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    width: calc(66.66vh);
+    height: 100vh;
+    flex: 2;
+}
+
+#img-credit {
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 18px;
+    opacity: .3;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
+
+.main-image {
+}
+
+.text-1 {
+    background-color: aliceblue;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size:x-large;
+}
+
+.text-1-1 {
+    margin-left: 48px;
+    margin-right: 256px;
+}
+
+.text-1-2 {
+    margin-left: 48px;
+    margin-right: 256px;
+    margin-bottom: 48px;
+}
+
+.text-2 {
+    background-color: white;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-2-1 {
+    flex: 1;
+    display: flex;
+    margin-left: 48px;
+    margin-right: 256px;
+    margin-top: 48px;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+    font-size:x-large;
+}
+
+.text-3 {
+    background-color: aliceblue;
+    flex-grow: 1;
+
+}
+
+.logo {
+    display: flex;
+    height: 15vh;
+    width: calc(33.33vw);
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.1);
+    align-items: center;
+    position: fixed;
+    top: calc(12.82vh);
+}
+
+.logo-img {
+    width: 50%;
+    height: 100%;
+    object-fit: contain;
+    opacity: .9;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.logo-text {
+    font-family: Norse;
+    font-size: 144px;
+    color: white;
+    opacity: .8;
+    padding-left: 0;
+    margin-left: 0;
+
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 3;
+}
+
+.form-left, .form-right {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+}
+
+.form-left div, .form-right div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-bottom: 24px;
+}
+
+.form-left div {
+    margin-left: 48px;
+}
+/* from getcssscan.com */
+ .button-3 {
+     appearance: none;
+     background-color: #2ea44f;
+     border: 1px solid rgba(27, 31, 35, .15);
+     border-radius: 6px;
+     box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+     box-sizing: border-box;
+     color: #fff;
+     cursor: pointer;
+     display: inline-block;
+     font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+     font-size: 14px;
+     font-weight: 600;
+     line-height: 20px;
+     padding: 6px 16px;
+     position: relative;
+     text-align: center;
+     text-decoration: none;
+     user-select: none;
+     -webkit-user-select: none;
+     touch-action: manipulation;
+     vertical-align: middle;
+     white-space: nowrap;
+     margin-top: 48px;
+     margin-left: 48px;
+     width: 15%
+ }
+
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+    box-shadow: none;
+    outline: none;
+}
+
+.button-3:hover {
+    background-color: #2c974b;
+}
+
+.button-3:focus {
+    box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+    outline: none;
+}
+
+.button-3:disabled {
+    background-color: #94d3a2;
+    border-color: rgba(27, 31, 35, .1);
+    color: rgba(255, 255, 255, .8);
+    cursor: default;
+}
+
+.button-3:active {
+    background-color: #298e46;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+.login {
+    margin-left: 48px;
+    margin-top: 48px;
+    font-weight: bold;
+    font-size:x-large;
+}
+
+a {
+    text-decoration: none;
+    color: #2c974b;
+}
+
+input {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+@font-face {
+    font-family: "Norse";
+    src: url("/norse/Norse.eot?") format("eot"),
+    url("/norse/Norse.woff") format("woff"),
+    url("/norse/Norse.ttf") format("truetype"),
+    url("/norse/Norse.svg#Norse") format("svg");
+    font-weight: normal;
+    font-style: normal;}
+
+label {
+    font-weight: bold;
+
+}
+
+input:valid {
+    border-color: #298e46;
+    border-style: double;
+}
+
+input:invalid {
+    border-color: red;
+    border-style: dotted;
+}
